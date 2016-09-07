@@ -57,7 +57,7 @@ html,body{
 }
 
 .conteudo {
-    width: 40%;
+    width: 50%;
     margin: auto;
     padding: 0;
 }
@@ -105,19 +105,25 @@ canvas{
 ul.social{
     position: absolute;
     top: 55%;
-    left: 37%;
+    left: 40%;
     text-align: center;
 }
 ul.social li {
 
     display: inline-block;
     text-align: center;
+    padding: 0.2em;
 }
 
-ul.social li a{
+ul.social li a i{
   color: white;
-  padding: 0.3em;
-  font-size: 3em;
+  padding: 0.2em;
+  font-size: 2.5em;
+  border: 3px solid;
+  border-radius: 100%;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
 }
 
 
@@ -140,9 +146,14 @@ ul.social li a{
 
 .logo {
   position: absolute;
-  top: 35%;
+  top: 30%;
   animation-name: LogoAnimate;
   animation-duration: .9s;
+}
+
+.logo img{
+
+    width: 44em;
 }
 
 
